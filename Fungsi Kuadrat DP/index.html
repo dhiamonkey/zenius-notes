@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sheet.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li> </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="rootwizard" class="tabbable tabs-left col-xs-2">
+	<ul>
+	  	<li><a href="#tab1" data-toggle="tab">First</a></li>
+		<li><a href="#tab2" data-toggle="tab">Second</a></li>
+		<li><a href="#tab3" data-toggle="tab">Third</a></li>
+		<li><a href="#tab4" data-toggle="tab">Forth</a></li>
+		<li><a href="#tab5" data-toggle="tab">Fifth</a></li>
+		<li><a href="#tab6" data-toggle="tab">Sixth</a></li>
+		<li><a href="#tab7" data-toggle="tab">Seventh</a></li>
+	</ul>
+	<div class="tab-content">
+	    <div class="tab-pane" id="tab1">
+	      1
+	    </div>
+	    <div class="tab-pane" id="tab2">
+	      2
+	    </div>
+		<div class="tab-pane" id="tab3">
+			3
+	    </div>
+		<div class="tab-pane" id="tab4">
+			4
+	    </div>
+		<div class="tab-pane" id="tab5">
+			5
+	    </div>
+		<div class="tab-pane" id="tab6">
+			6
+	    </div>
+		<div class="tab-pane" id="tab7">
+			7
+	    </div>
+		<ul class="pager wizard">
+			<li class="previous first" style="display:none;"><a href="#">First</a></li>
+			<li class="previous"><a href="#">Previous</a></li>
+			<li class="next last" style="display:none;"><a href="#">Last</a></li>
+		  	<li class="next"><a href="#">Next</a></li>
+		</ul>
+	</div>
+</div>
+
+        <div class="container col-xs-8">
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">PGL</a></li>
+        <li><a data-toggle="tab" href="#menu1">FK</a></li>
+        <li><a data-toggle="tab" href="#menu1">Videos</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h3>Fungsi Kuadrat DP</h3>
+            <p>Ini cuma rangkuman aja. Kalo lo ada yang gak ngerti kenapa begini, liat lagi teorinya.</p>
+            <br>
+            <h4>Bentuk umum fungsi kuadrat</h4>
+              <p class="eq">$$ F(x) = ax^{2} + bx + c, \quad a \neq 0 $$</p>
+              <br>
+              <br>
+              <br>
+                <ol> <li>Jika koefisien a nilainya positif maka kurva terbuka ke atas, jika negatif terbuka ke bawah.</li>
+                <li>Koefisien c menyatakan letak si kurva relatif terhadap sumbu y.</li>
+                <li> Jika a . b > 0 maka titik puncaknya di kiri sumbu y. Jika a . b < 0 maka titik puncaknya  di kanan sumbu y.</li> </ol></p>
+            <h4>Titik puncak/simetri</h4>
+                <p>sumbu:</p>
+                <p class="eq"> $$ x_{p} = \frac{-b}{2a} \qquad y_{p} = \frac{-D}{4a} \qquad y_{p} = F (x_{p}) $$ </p>
+                <br>
+                <br>
+                <br>
+                <br>
+            <h4>Titik puncak menggunakan turunan</h4>
+                <p class="eq">$$
+                  f(x) = ax^{2} + bx + c \\
+                  f'(x) = 2ax +b \\
+                  f'(x) = 0 \\
+                  2ax + b = 0 \\
+                  x = \frac{-b}{2a} \\$$</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>Dan nilai <em>x</em> itu lo masukin deh ke fungsi awal, dapetlah nilai <em>y</em> puncaknya.</p>
+                <br>
+            <h4>Translasi fungsi kuadrat</h4>
+                <p class="eq">$$
+                  y = ax^{2} \ \rightarrow \ \binom{xp}{yp} \Rightarrow \ y-yp = a \ (x-xp)^{2}
+                  $$</p>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+            <h4>Fungsi Kuadrat dengan akar-akar</h4>
+                <p class="eq">$$
+                  F(x) = a (x-x_{1})(x-x_{2})
+                  $$</p>
+
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

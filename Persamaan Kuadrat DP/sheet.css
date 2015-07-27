@@ -1,0 +1,17 @@
+#rootwizard {
+  float: left;
+}
+.eq {
+  float: left;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  margin: 0em;
+}
+.container {
+  float: left;
+}
+.MathJax_Display {
+  text-align: right;
+    margin: 0em;
+},
